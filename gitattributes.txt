@@ -1,0 +1,10 @@
+# Ignore non-core files from language stats
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+
+# Explicitly set languages
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.sol linguist-language=Solidity
