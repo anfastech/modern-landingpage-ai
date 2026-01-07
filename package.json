@@ -9,16 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "": "file:",
     "@headlessui/react": "^2.2.0",
     "@types/node": "^22.13.0",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "aos": "3.0.0-beta.6",
-    "moder": "file:",
-    "modern-landing-page": "file:",
     "next": "15.1.6",
-    "open-pro-next": "file:",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "typescript": "^5.7.3"
