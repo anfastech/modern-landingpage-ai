@@ -91,3 +91,38 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+/* Mermaid diagram styling */
+.mermaid-container {
+  width: 100%;
+  overflow: auto;
+}
+
+.mermaid {
+  background: transparent !important;
+  color: #e0e0e0 !important;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure Mermaid diagrams are visible in dark theme */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+  fill: #1a1a1a !important;
+  stroke: #667eea !important;
+  color: #e0e0e0 !important;
+}
+
+.mermaid .edgePath .path {
+  stroke: #667eea !important;
+}
+
+.mermaid .edgeLabel {
+  background: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
